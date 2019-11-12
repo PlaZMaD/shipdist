@@ -170,9 +170,9 @@ overrides:
       G4RADIOACTIVEDATA:        "$GEANT4_ROOT/share/$G4VERSION/data/RadioactiveDecay5.1.1"
       G4REALSURFACEDATA:        "$GEANT4_ROOT/share/$G4VERSION/data/RealSurface1.0"
   GEANT4_VMC:
-    version: "%(tag_basename)s"
-    tag: v3-6-ship
-    source: https://github.com/ShipSoft/geant4_vmc.git
+    version: "fullOut"
+    tag: fullOut
+    source: https://github.com/PlaZMaD/geant4_vmc.git
     prefer_system_check: |
       ls $GEANT4_VMC_ROOT/bin > /dev/null && \
       ls $GEANT4_VMC_ROOT/lib/libg4root.so > /dev/null && \
